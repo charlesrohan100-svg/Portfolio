@@ -12,6 +12,7 @@ Goal: decide whether to move me forward
 7. Reaches Contact
 
 States:
+
 - Returning in the same tab: no loading animation
 - Reduced motion on: no loading animation, no smooth scroll, all
   elements shown in final position immediately
@@ -23,6 +24,7 @@ States:
 3. Deployed site opens in a NEW TAB — my page stays open
 
 States:
+
 - Loading: grey skeleton shapes matching the card layout
 - Zero rows: "No projects yet"
 - Database error: honest failure message, error recorded so I find out
@@ -31,16 +33,16 @@ States:
 **Flow 3 — Leave a message**
 
 1. Reaches contact section
-2. Types name, email, message
-3. Presses send
-4. Button disabled while sending, cannot be pressed twice
-5. Confirmation shown
+2. form always visible in the section
+3. Types name, email, message
+4. Presses send
+5. Button disabled while sending, cannot be pressed twice
+6. Confirmation shown
 
 **States:**
+
 - Typing mistake: message under that field, before sending,
   naming what is wrong
 - Server failure: typed text KEPT, clear error, retry offered,
   LinkedIn as second route
 - Success: confirmation message
-
-Open decision: modal panel or form always visible in the section
