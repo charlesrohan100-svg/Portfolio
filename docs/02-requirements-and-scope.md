@@ -10,6 +10,7 @@
 - LinkedIn link
 - Downloadable resume PDF, contact details removed
 - Project cards linking to the deployed Vercel sites
+- Error tracking, so failures in production are recorded
 
 **Will not build**
 
